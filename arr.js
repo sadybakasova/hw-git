@@ -27,7 +27,7 @@ getSum=it_departments_employees.reduce(function(a,b) {
     return a+b.salary
 },0) / it_departments_employees.length
 console.log(getSum)
+
 const someUsers = it_departments_employees.filter(item => item.salary>=1500)
 console.log(someUsers)
-const someUsers2= it_departments_employees.forEach(item=> item.salary<1500+500)
-console.log(someUsers2)
+
